@@ -87,7 +87,13 @@ namespace EXE5_058_KELOMPOK4
                             break;
                         case '2':
                             q.delete();
-                        break;
+                            break;
+                        case '3';
+                            q.display(); 
+                            break;
+                        case '4';
+                            return;
+
 
                     }
                 }
