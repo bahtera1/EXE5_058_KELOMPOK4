@@ -88,18 +88,19 @@ namespace EXE5_058_KELOMPOK4
                         case '2':
                             q.delete();
                             break;
-                        case '3';
+                        case '3':
                             q.display(); 
                             break;
-                        case '4';
+                        case '4':
                             return;
-
-
+                        default:
+                            Console.WriteLine("Invalid Option");
+                            break;
                     }
                 }
                 catch (Exception e) 
                 { 
-                    Console.WriteLine()
+                    Console.WriteLine("Check for the value Entered")
                 }
             }
         }
