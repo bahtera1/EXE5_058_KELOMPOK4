@@ -27,7 +27,7 @@ namespace EXE5_058_KELOMPOK4
             nm = Console.ReadLine();
             newnode.name = nm;
             newnode.next = null;
-            if (naufal == null)
+            if (Naufal == null)
             {
                 Naufal = newnode;
                 saputra = newnode;
@@ -46,6 +46,19 @@ namespace EXE5_058_KELOMPOK4
             Naufal = Naufal.next;
             if(Naufal==null)
                 saputra=null;
+        }
+
+        public void display()
+        {
+            if (Naufal = null)
+            {
+                Console.WriteLine("Queue is Empty");
+                return;
+            }
+            Node display;
+            int nd = 1;
+            for(display=Naufal;display!=null;display=display.next)
+                Console.WriteLine(display.name);
         }
     }
 
