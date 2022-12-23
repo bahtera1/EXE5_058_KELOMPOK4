@@ -19,6 +19,21 @@ namespace EXE5_058_KELOMPOK4
             Naufal = null;
             saputra=null;
         }
+        public void insert()
+        {
+            string nm;
+            Node newnode = new Node();
+            Console.WriteLine("MAsukan Element:");
+            nm = Console.ReadLine();
+            newnode.name = nm;
+            newnode.next = null);
+            if (naufal == null)
+            {
+                Naufal = newnode;
+                saputra = newnode;
+                return;
+            }
+        }
     }
 
 
