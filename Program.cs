@@ -26,13 +26,26 @@ namespace EXE5_058_KELOMPOK4
             Console.WriteLine("MAsukan Element:");
             nm = Console.ReadLine();
             newnode.name = nm;
-            newnode.next = null);
+            newnode.next = null;
             if (naufal == null)
             {
                 Naufal = newnode;
                 saputra = newnode;
                 return;
             }
+            Naufal.next = newnode;
+            Naufal=newnode;
+        }
+        public void delete()
+        {
+            if(Naufal==null)
+            {
+                Console.WriteLine("Queue is empty");
+                return;
+            }
+            Naufal = Naufal.next;
+            if(Naufal==null)
+                saputra=null;
         }
     }
 
