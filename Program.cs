@@ -57,7 +57,7 @@ namespace EXE5_058_KELOMPOK4
             }
             Node display;
             int nd = 1;
-            for(display=Naufal;display!=null;display=display.next)
+            for (display = Naufal; display != null; display = display.next)
                 Console.WriteLine(display.name);
         }
     }
@@ -99,8 +99,8 @@ namespace EXE5_058_KELOMPOK4
                     }
                 }
                 catch (Exception e) 
-                { 
-                    Console.WriteLine("Check for the value Entered")
+                {
+                    Console.WriteLine("Check for the value Entered");
                 }
             }
         }
