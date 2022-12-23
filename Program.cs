@@ -62,20 +62,24 @@ namespace EXE5_058_KELOMPOK4
         }
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
+    class program
+    {
         static void Main(string[] args)
         {
+            queue q = new queue();
+            char ch;
+            while(true)
+            {
+                try
+                {
+                    Console.WriteLine("Menu");
+                    Console.WriteLine("1.Implement insert operation");
+                    Console.WriteLine("2. Implement delete operation");
+                    Console.WriteLine("3. Display Values");
+                    Console.WriteLine("EXit");
+                }
+            }
         }
+    }
 
 }
