@@ -76,7 +76,24 @@ namespace EXE5_058_KELOMPOK4
                     Console.WriteLine("1.Implement insert operation");
                     Console.WriteLine("2. Implement delete operation");
                     Console.WriteLine("3. Display Values");
-                    Console.WriteLine("EXit");
+                    Console.WriteLine("Eit");
+                    Console.WriteLine("Enter Your Choice:  ");
+                    ch=Convert.ToChar(Console.ReadLine());
+                    Console.WriteLine();
+                    switch(ch)
+                    {
+                        case '1':
+                            q.insert();
+                            break;
+                        case '2':
+                            q.delete();
+                        break;
+
+                    }
+                }
+                catch (Exception e) 
+                { 
+                    Console.WriteLine()
                 }
             }
         }
