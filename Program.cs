@@ -6,10 +6,35 @@ using System.Threading.Tasks;
 
 namespace EXE5_058_KELOMPOK4
 {
-    internal class Program
+    class Node
     {
+        public string name;
+        public Node next;
+    }
+    class queue
+    {
+        Node Naufal, saputra;
+        public queue()
+        {
+            Naufal = null;
+            saputra=null;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
         static void Main(string[] args)
         {
         }
-    }
+
 }
